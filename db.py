@@ -2,7 +2,7 @@
 
 import sqlite3
 
-DB_FILE = "contracts.db"aa
+DB_FILE = "contracts.db"
 
 def init_db():
     conn = sqlite3.connect(DB_FILE)
