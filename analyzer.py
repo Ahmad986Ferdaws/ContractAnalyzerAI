@@ -5,7 +5,7 @@ import os
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-def analyze_contract(text):aaa
+def analyze_contract(text):aa
     prompt = f"""
 You are a legal AI assistant. Analyze the following contract text and return a structured JSON object with:
 - summary: a short overview in plain English
