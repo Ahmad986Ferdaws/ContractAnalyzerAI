@@ -3,7 +3,7 @@
 import openai
 import os
 
-openai.api_key = os.getenv("OPENAI_API_KEY")aaa
+openai.api_key = os.getenv("OPENAI_API_KEY")aa
 
 def analyze_contract(text):a
     prompt = f"""
