@@ -1,7 +1,7 @@
 # app/analyzer.py
 
 import openai
-import osaaa
+import osa
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 def analyze_contract(text):a
