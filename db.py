@@ -4,7 +4,7 @@ import sqlite3
 
 DB_FILE = "contracts.db"
 
-def init_db():aa
+def init_db():a
     conn = sqlite3.connect(DB_FILE)
     c = conn.cursor()
     c.execute("""
