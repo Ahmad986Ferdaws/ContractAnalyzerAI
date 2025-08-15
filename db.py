@@ -1,7 +1,7 @@
 # app/db.py
 
 import sqlite3
-a
+
 DB_FILE = "contracts.db"
 
 def init_db():
