@@ -3,7 +3,7 @@
 import sqlite3
 
 DB_FILE = "contracts.db"
-a
+
 def init_db():
     conn = sqlite3.connect(DB_FILE)
     c = conn.cursor()
